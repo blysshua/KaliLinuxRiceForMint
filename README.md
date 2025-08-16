@@ -9,4 +9,4 @@ just pasting my configs here so they won't be permanently gone when i change eve
 
 <img width="646" height="391" alt="kalifetch2" src="https://github.com/user-attachments/assets/31ac8b6e-9947-4753-9adb-39de32e00535" />
 
-might make is public if anyone else wnats to do this for whatever reason
+might make this public if anyone else wants to do this for whatever reason
