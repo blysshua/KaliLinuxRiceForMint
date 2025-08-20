@@ -153,5 +153,22 @@ alias mysqlstop='sudo systemctl stop mysql'
 alias mysqlstatus='sudo systemctl status mysql --no-pager'
 alias mysqlrestart='sudo systemctl restart mysql'
 
+# tor
+alias torstart='sudo systemctl start tor'
+alias torstop='sudo systemctl stop tor'
+alias torstatus='sudo systemctl status tor'
+alias torrestart='sudo systemctl restart tor'
+alias torenable='sudo systemctl enable tor'
+alias tordisable='sudo systemctl disable tor'
+alias toron='~/.local/bin/tor/tor-on.sh'
+alias toroff='~/.local/bin/tor/tor-off.sh'
+
+# script to do all those commands at once ^^^
+# system wide connection to tor
+alias torup='~/.local/bin/tor/torup.sh'
+alias tu='~/.local/bin/tor/torup.sh'
+alias tordown='~/.local/bin/tor/tordown.sh'
+alias td='~/.local/bin/tor/tordown.sh'
+
 
 . "$HOME/.cargo/env"
